@@ -1,6 +1,6 @@
-Spring embedded database sample
+Spring embedded database sample ( Java and Xml Config)
 ===============================
-
+[![Build Status](https://travis-ci.org/haozl/spring-embedded-db.svg)](https://travis-ci.org/haozl/spring-embedded-db)
 
 ### Run the application
 ```shell

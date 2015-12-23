@@ -48,7 +48,6 @@ public class UserDaoTest {
 
         @Bean
         public DataSource dataSource() {
-            // no need shutdown, EmbeddedDatabaseFactoryBean will take care of this
             EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
             EmbeddedDatabase db = builder
                     .setType(EmbeddedDatabaseType.H2)
